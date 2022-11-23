@@ -1,0 +1,74 @@
+/* Global Style */
+#page-container {
+    margin-top: 64px;
+}
+
+/* Navigation and Footer*/
+nav {
+    position: fixed;
+    top: 0;
+}
+
+.nav-wrapper {
+    background-color: #63b0a6;
+}
+
+nav ul a {
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #63b0a6;
+}
+
+/* Main Section Styles */
+.regular-style {
+    color: #63b0a6;
+    background-color: white;
+}
+
+.inverted-style {
+    background-color: #63b0a6;
+    color: white;
+}
+
+/* General CSS */
+.row {
+    margin-bottom: 0 !important;
+}
+
+.section-header {
+    margin: 0;
+    font-size: 24px;
+}
+
+.section-subheading {
+    font-size: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+#logo {
+    max-height: 64px;
+}
+
+.placeholder {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/* Media Quieries */
+@media screen and (max-width: 600px) {
+    #page-container {
+        margin-top: 56px;
+    }
+
+    #logo {
+        max-height: 56px;
+    }
+}
