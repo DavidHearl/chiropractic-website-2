@@ -1,3 +1,10 @@
+/* 
+Notes 
+
+Initial Color: #63b0a6
+
+*/
+
 /* Global Style */
 #page-container {
     margin-top: 64px;
@@ -5,12 +12,13 @@
 
 /* Navigation and Footer*/
 nav {
+    z-index: 9999;
     position: fixed;
     top: 0;
 }
 
 .nav-wrapper {
-    background-color: #63b0a6;
+    background-color: #26a69a;
 }
 
 nav ul a {
@@ -19,18 +27,26 @@ nav ul a {
     font-size: 1.1rem;
 }
 
+.hamburger-menu {
+    z-index: 10000;
+    position: fixed;
+    right: 8px;
+    top: 8px;
+    color: white;
+}
+
 footer {
-    background-color: #63b0a6;
+    background-color: #26a69a;
 }
 
 /* Main Section Styles */
 .regular-style {
-    color: #63b0a6;
+    color: #00897b;
     background-color: white;
 }
 
 .inverted-style {
-    background-color: #63b0a6;
+    background-color: #26a69a;
     color: white;
 }
 
