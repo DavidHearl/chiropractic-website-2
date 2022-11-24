@@ -17,6 +17,7 @@
 </head>
 
 <header>
+	<!-- Main Navigation -->
 	<nav>
 		<div class="nav-wrapper">
 			<img id="logo" src="assets/images/duncan-lightfoot-logo.jpg" alt="Chiropractic Logo">
@@ -31,37 +32,32 @@
 		</div>
 	</nav>
 
+	<!-- Side Navigation -->
 	<ul id="slide-out" class="sidenav">
-		<li><div class="user-view">
-		  <div class="background">
-			<img src="images/office.jpg">
-		  </div>
-		  <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-		  <a href="#name"><span class="white-text name">John Doe</span></a>
-		  <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-		</div></li>
-		<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-		<li><a href="#!">Second Link</a></li>
-		<li><div class="divider"></div></li>
-		<li><a class="subheader">Subheader</a></li>
-		<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-	  </ul>
-	  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hamburger-menu">menu</i></a>
-
-
+		<li>
+			<li><a href="#home-section">Home</a></li>
+			<li><a href="#about-section">About</a></li>
+			<li><a href="#new-patient-section">New Patients</a></li>
+			<li><a href="#contact-section">Contact</a></li>
+			<li><a href="#faq-section">FAQs</a></li>
+			<li><a href="#covid-section">Covid-19</a></li>
+		</li>
+	</ul>
+	<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hamburger-menu">menu</i></a>
 </header>
 
 <body>
 	<div id="page-container">
-		<div class="container">
-			<p>23/06/2020 - The clinic is open again. Read more about <strong><a href="#" aria-label="COVID 19">COVID-19</a></strong> Procedures</p>
-		</div>
+
+		<p class="center-align">23/06/2020 - The clinic is open again. Read more about <strong><a href="#" aria-label="COVID 19">COVID-19</a></strong> Procedures</p>
 
 		<!-- Home -->
 		<section id="home-section" class="regular-style">
 			<div class="row">
 				<h2 class="section-header">Home</h2>
-				<div class="col s6">
+				
+				<!-- Opening Statement -->
+				<div class="col s12 m6">
 					<p>From his clinic in Newcastle, Duncan provides effective chiropractic treatment and management for conditions including:</p>
 					<ul>
 						<li>Lower back pain and Sciatica</li>
@@ -73,7 +69,9 @@
 					</ul>
 					<p>Specially trained in pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
 				</div>
-				<div class="col s6">
+
+				<!-- Booking Form -->
+				<div class="col s12 m6">
 					<form >
 						<div class="row">
 							<div class="input-field">
@@ -97,6 +95,7 @@
 						</button>
 					</form>
 				</div>
+
 			</div>
 		</section>
 

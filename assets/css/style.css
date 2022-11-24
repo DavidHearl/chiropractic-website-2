@@ -7,7 +7,7 @@ Initial Color: #63b0a6
 
 /* Global Style */
 #page-container {
-    margin-top: 64px;
+    margin-top: 80px;
 }
 
 /* Navigation and Footer*/
@@ -27,12 +27,17 @@ nav ul a {
     font-size: 1.1rem;
 }
 
+.sidenav {
+    top: 64px !important;
+}
+
 .hamburger-menu {
     z-index: 10000;
     position: fixed;
-    right: 8px;
-    top: 8px;
+    right: 16px;
+    top: 14px;
     color: white;
+    font-size: 36px !important;
 }
 
 footer {
@@ -81,7 +86,11 @@ fieldset {
 /* Media Quieries */
 @media screen and (max-width: 600px) {
     #page-container {
-        margin-top: 56px;
+        margin-top: 72px;
+    }
+
+    .sidenav {
+        top: 56px !important;
     }
 
     #logo {
