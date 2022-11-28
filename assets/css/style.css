@@ -126,6 +126,14 @@ img {
     margin-bottom: 24px;
 }
 
+.checkboxes {
+    margin: 12px 0;
+}
+
+.inline-question {
+    margin-top: 1px;
+}
+
 th, td {
     padding: 8px 4px !important;
 }
