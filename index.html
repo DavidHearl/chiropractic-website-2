@@ -43,13 +43,13 @@
 			<li><a href="#covid-section">Covid-19</a></li>
 		</li>
 	</ul>
-	<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hamburger-menu">menu</i></a>
+	<a id="hamburger-menu" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hamburger-menu">menu</i></a>
 </header>
 
 <body>
 	<div id="page-container">
 
-		<p class="center-align">23/06/2020 - The clinic is open again. Read more about <strong><a href="#" aria-label="COVID 19">COVID-19</a></strong> Procedures</p>
+		<p class="center-div covid-text">23/06/2020 - The clinic is open again. Read more about <strong><a href="#" aria-label="COVID 19"> COVID-19 </a></strong> Procedures</p>
 
 		<!-- Home -->
 		<section id="home-section" class="regular-style">
@@ -58,16 +58,18 @@
 				
 				<!-- Opening Statement -->
 				<div class="col s12 m6">
-					<p>From his clinic in Newcastle, Duncan provides effective chiropractic treatment and management for conditions including:</p>
-					<ul>
-						<li>Lower back pain and Sciatica</li>
-						<li>Neck pain</li>
-						<li>Whiplash</li>
-						<li>Migraine and headaches</li>
-						<li>Shoulder and arm pain</li>
-						<li>Hip and knee complaints</li>
-					</ul>
-					<p>Specially trained in pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
+					<div class="text-block">
+						<p>From his clinic in Newcastle, Duncan provides effective chiropractic treatment and management for conditions including:</p>
+						<ul>
+							<li>Lower back pain and Sciatica</li>
+							<li>Neck pain</li>
+							<li>Whiplash</li>
+							<li>Migraine and headaches</li>
+							<li>Shoulder and arm pain</li>
+							<li>Hip and knee complaints</li>
+						</ul>
+						<p>Specially trained in pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
+					</div>
 				</div>
 
 				<!-- Booking Form -->
@@ -90,7 +92,7 @@
 								<label for="date">Date</label>
 							</div>
 						</div>
-						<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+						<button class="btn waves-effect waves-light submit-button" type="submit" name="action">Submit
 							<i class="material-icons right">send</i>
 						</button>
 					</form>
@@ -103,19 +105,21 @@
 		<section id="about-section" class="inverted-style">
 			<div class="row">
 				<h2 class="section-header">About</h2>
-				<div class="col s12 m6 center-image">
-					<img id="headshot" src="assets/images/duncan-headshot.jpg" alt="Headshot of Duncan">
+				<div class="col s12 m6 l4 center-div">
+					<img class="site-image" id="headshot" src="assets/images/duncan-headshot.jpg" alt="Headshot of Duncan">
 				</div>
-				<div class="col s12 m6">
-					<h3 class="section-subheading">Education</h3>
-                    <p>Duncan graduated from The Welsh Institute Of Chiropractic at the university of Glamorgan with a BSc (Hons) in Chiropractic in 2003. 
-                    He returned back up to his native North East where he has worked in several private practices across the region.</p>
-                    <h3 class="section-subheading">Specialty</h3>
-                    <p>Duncan provides effective chiropractic treatment for a range of conditions and is specially trained in
-                    pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
-                    <h3 class="section-subheading">Registration</h3>
-                    <p>He is registered with the <em><a href="https://www.gcc-uk.org/search/chiro_results?chiro_fullname=Lightfoot&chiro_registration_number=02068" target="_blank">General Chiropractic Council</a></em> and is a member of the British Chiropractic Association. 
-                    He currently practices from his clinic in Newcastle.</p>
+				<div class="col s12 m6 l8">
+					<div class="text-block">
+						<h3 class="section-subheading">Education</h3>
+						<p>Duncan graduated from The Welsh Institute Of Chiropractic at the university of Glamorgan with a BSc (Hons) in Chiropractic in 2003. 
+						He returned back up to his native North East where he has worked in several private practices across the region.</p>
+						<h3 class="section-subheading">Specialty</h3>
+						<p>Duncan provides effective chiropractic treatment for a range of conditions and is specially trained in
+						pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
+						<h3 class="section-subheading">Registration</h3>
+						<p>He is registered with the <em><a href="https://www.gcc-uk.org/search/chiro_results?chiro_fullname=Lightfoot&chiro_registration_number=02068" target="_blank">General Chiropractic Council</a></em> and is a member of the British Chiropractic Association. 
+						He currently practices from his clinic in Newcastle.</p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -124,26 +128,28 @@
 		<section id="new-patient-section" class="regular-style">
 			<div class="row">
 				<h2 class="section-header">New Patients</h2>
-				<div class="col s12 m6">
-					<h3 class="section-subheading">We always welcome new patients to the clinic</h3>
-                    <p>
-                        On your first visit we will carry out a new patient consultation. 
-                        This includes recording your medical history and a thorough physical examination. 
-                        A treatment plan will be formulated and explained, and treatment can begin on this visit. 
-                        This will take approximately 60 minutes.
-                    </p>
-                    <ul>
-                        <li>Please wear loose comfortable clothing and bring a list of any medications you may be taking.</li>
-                        <li>If you have had any X-ray, MRI or CT examinations recently and have access to the reports, please bring a copy.</li>
-                        <li>If you have time please fill in the <a>new patient questionaire</a> If not, allow yourself an extra 5 minutes before your appointment to fill it in.</li>
-                    </ul>
-                    <p>
-                        For more informaiton check out my <a href="faqs.html">FAQ page.</a> If you have any other quieres or concerns then feel free to contact me on 07734253555 or email
-                        <strong>duncan_lightfoot@hotmail.com</strong>
-                    </p> 
+				<div class="col s12 m6 l8">
+					<div class="text-block">
+						<h3 class="section-subheading">We always welcome new patients to the clinic</h3>
+						<p>
+							On your first visit we will carry out a new patient consultation. 
+							This includes recording your medical history and a thorough physical examination. 
+							A treatment plan will be formulated and explained, and treatment can begin on this visit. 
+							This will take approximately 60 minutes.
+						</p>
+						<ul>
+							<li>Please wear loose comfortable clothing and bring a list of any medications you may be taking.</li>
+							<li>If you have had any X-ray, MRI or CT examinations recently and have access to the reports, please bring a copy.</li>
+							<li>If you have time please fill in the <a>new patient questionaire</a> If not, allow yourself an extra 5 minutes before your appointment to fill it in.</li>
+						</ul>
+						<p>
+							For more informaiton check out my <a href="faqs.html">FAQ page.</a> If you have any other quieres or concerns then feel free to contact me on 07734253555 or email
+							<strong>duncan_lightfoot@hotmail.com</strong>
+						</p> 
+					</div>
 				</div>
-				<div class="col s12 m6 center-image">
-					<img id="headshot" src="assets/images/duncan-treatment-room.jpg" alt="">
+				<div class="col s12 m6 l4 center-div">
+					<img class="site-image" id="headshot" src="assets/images/duncan-treatment-room.jpg" alt="">
 				</div>
 			</div>
 		</section>
@@ -184,79 +190,81 @@
 			<div class="row">
 				<h2 id="faq-section" class="section-header">FAQs</h2>
 				<div class="col s12 m6">
-					<div>
-						<h3 class="section-subheading">What is chiropractic?</h3>
-						<p>Chiropractors are professionals who specialise in the diagnosis and treatment of painful conditions due to mechanical dysfunction of the joints and soft tissue.</p>
-						<p>Chiropractors use their hands to adjust (manipulate) the joints and soft tissue of your spine and limbs where signs of restriction in movement are found,
-						improving mobility and relieving pain.</p>
-					</div>
-					<div>
-						<h3 class="section-subheading">What conditions do chiropractors treat?</h3>
-						<p>Although chiropractors are best known for treating back and neck pain, which they do very well, patients also consult chiropractors regarding a range of other,
-						related conditions including:</p>
-						<ul>
-							<li>Lower back pain and Sciatica</li>
-							<li>Neck pain</li>
-							<li>Whiplash</li>
-							<li>Migraine and headaches</li>
-							<li>Shoulder and arm pain</li>
-							<li>Hip and knee complaints</li>
-						</ul>
+					<div class="text-block">
+						<div>
+							<h3 class="section-subheading">What is chiropractic?</h3>
+							<p>Chiropractors are professionals who specialise in the diagnosis and treatment of painful conditions due to mechanical dysfunction of the joints and soft tissue.</p>
+							<p>Chiropractors use their hands to adjust (manipulate) the joints and soft tissue of your spine and limbs where signs of restriction in movement are found,
+							improving mobility and relieving pain.</p>
+						</div>
+						<div>
+							<h3 class="section-subheading">What conditions do chiropractors treat?</h3>
+							<p>Although chiropractors are best known for treating back and neck pain, which they do very well, patients also consult chiropractors regarding a range of other,
+							related conditions including:</p>
+							<ul>
+								<li>Lower back pain and Sciatica</li>
+								<li>Neck pain</li>
+								<li>Whiplash</li>
+								<li>Migraine and headaches</li>
+								<li>Shoulder and arm pain</li>
+								<li>Hip and knee complaints</li>
+							</ul>
+						</div>
+
+						<div>
+							<h3 class="section-subheading">Will treatment hurt?</h3>
+							<p>Adjusting is not painful. If you have acute muscle spasms or resist the adjustment there may be some discomfort.</p>
+						</div>
+						
+						<div>
+							<h3 class="section-subheading">What is the popping noise of adjustments?</h3>
+							<p>When the surfaces of a joint are moved apart rapidly, as happens in a chiropractic adjustment, there is a change of pressure within the joint space.
+							This may cause a miniscule bubble of gas to pop. This sound is not significant and does not hurt.</p>  
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">Do I need GP referal?</h3>
+							<p>No, chiropractors are primary healthcare professionals, so you can consult us directly.</p>
+						</div>  
 					</div>
 
-					<div>
-						<h3 class="section-subheading">Will treatment hurt?</h3>
-						<p>Adjusting is not painful. If you have acute muscle spasms or resist the adjustment there may be some discomfort.</p>
-					</div>
-					
-					<div>
-						<h3 class="section-subheading">What is the popping noise of adjustments?</h3>
-						<p>When the surfaces of a joint are moved apart rapidly, as happens in a chiropractic adjustment, there is a change of pressure within the joint space.
-						This may cause a miniscule bubble of gas to pop. This sound is not significant and does not hurt.</p>  
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">Do I need GP referal?</h3>
-						<p>No, chiropractors are primary healthcare professionals, so you can consult us directly.</p>
-					</div>  
-				</div>
-
-				<div class="col s12 m6">
-					<div>
-						<h3 class="section-subheading">Can I get treatment on the NHS?</h3>
-						<p>Some GP's are able to purchase treatment for their patients on the NHS. Most health insurance companies will now pay for treatment, although some might require a letter from your GP. 
-						If you are looking to claim back for the treatment, it is best to check your policy.</p>
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">How long does a treatment take?</h3>
-						<p>The first consultation takes about 60 minutes. This includes a full health consultation and assessment. 
-						After your initial consultation treatment is based on your specific condition, so your appointment can last anything from 10 to 30 minutes.</p>
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">What should I wear?</h3>
-						<p>Loose comfortable clothes.</p>
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">How much will it cost?</h3>
-						<ul>
-							<li>New patient consultation £20</li>
-							<li>New patient consultation with treatment £55</li>
-							<li>Re-examination £45</li>
-							<li>Treatment £35</li>
-						</ul>
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">Can I pay by card?</h3>
-						<p>Yes, you can pay by cash or card.</p>
-					</div>
-	
-					<div>
-						<h3 class="section-subheading">What should I expect as a new patient?</h3>
-						<p>For more information about visiting the clinic for the first time click <a href="new-patients.html">here.</a></p>
+					<div class="col s12 m6">
+						<div>
+							<h3 class="section-subheading">Can I get treatment on the NHS?</h3>
+							<p>Some GP's are able to purchase treatment for their patients on the NHS. Most health insurance companies will now pay for treatment, although some might require a letter from your GP. 
+							If you are looking to claim back for the treatment, it is best to check your policy.</p>
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">How long does a treatment take?</h3>
+							<p>The first consultation takes about 60 minutes. This includes a full health consultation and assessment. 
+							After your initial consultation treatment is based on your specific condition, so your appointment can last anything from 10 to 30 minutes.</p>
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">What should I wear?</h3>
+							<p>Loose comfortable clothes.</p>
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">How much will it cost?</h3>
+							<ul>
+								<li>New patient consultation £20</li>
+								<li>New patient consultation with treatment £55</li>
+								<li>Re-examination £45</li>
+								<li>Treatment £35</li>
+							</ul>
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">Can I pay by card?</h3>
+							<p>Yes, you can pay by cash or card.</p>
+						</div>
+		
+						<div>
+							<h3 class="section-subheading">What should I expect as a new patient?</h3>
+							<p>For more information about visiting the clinic for the first time click <a href="new-patients.html">here.</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -267,44 +275,46 @@
 			<div class="row">
 				<h2 class="section-header">COVID-19</h2>
 				<div class="col s12 m6">
-					<div>
-						<h3 class="section-subheading"><strong>DO NOT ENTER THE BUILDING IF:</strong></h3>
-						<ul>
-							<li>You are feeling unwell</li>
-							<li>Have any COVID-19 symptoms</li>
-						</ul>
-						<p>People at high risk of Covid-19 are still advised to shield.</p>
-						<p>People at moderate risk of Covid-19 are currently advised to stay at home as much as possible.</p>
+					<div class="text-block">
+						<div>
+							<h3 class="section-subheading"><strong>DO NOT ENTER THE BUILDING IF:</strong></h3>
+							<ul>
+								<li>You are feeling unwell</li>
+								<li>Have any COVID-19 symptoms</li>
+							</ul>
+							<p>People at high risk of Covid-19 are still advised to shield.</p>
+							<p>People at moderate risk of Covid-19 are currently advised to stay at home as much as possible.</p>
+						</div>
+						<div>
+							<h3 class="section-subheading">Attending your appointment</h3>
+							<p><strong>Appointments are staggered.</strong> This is to reduce the chance of people crossing over when arriving or leaving.</p>
+							<p><strong>Please aim to arrive at your appointment time.</strong> Wait in your car, I will come out to the door and wave you in. I will be wearing scrubs, a disposable apron, a face mask and gloves.</p>
+							<p><strong>You should attend your appointment alone where possible.</strong></p>
+							<p><strong>A box will be provided for you to put your belongings in.</strong> If possible, please leave them in your car.</p>
+							<p><strong>If you walk or arrive by public transport the waiting area will be open as normal.</strong> Seats have been spread out the ensure anyone using them will be 2 metres apart.</p>
+							<p><strong>If you have a face mask please wear it.</strong></p>
+							<p><strong>Please bring a hand towel with you.</strong> You can use this to rest your face on if you are lying on your front during your treatment.</p> 
+						</div>
 					</div>
-					<div>
-						<h3 class="section-subheading">Attending your appointment</h3>
-						<p><strong>Appointments are staggered.</strong> This is to reduce the chance of people crossing over when arriving or leaving.</p>
-						<p><strong>Please aim to arrive at your appointment time.</strong> Wait in your car, I will come out to the door and wave you in. I will be wearing scrubs, a disposable apron, a face mask and gloves.</p>
-						<p><strong>You should attend your appointment alone where possible.</strong></p>
-						<p><strong>A box will be provided for you to put your belongings in.</strong> If possible, please leave them in your car.</p>
-						<p><strong>If you walk or arrive by public transport the waiting area will be open as normal.</strong> Seats have been spread out the ensure anyone using them will be 2 metres apart.</p>
-						<p><strong>If you have a face mask please wear it.</strong></p>
-						<p><strong>Please bring a hand towel with you.</strong> You can use this to rest your face on if you are lying on your front during your treatment.</p> 
-					</div>
-				</div>
-				<div class="col s12 m6">
-					<div>
-						<h3 class="section-subheading">Inside IMSL House</h3>
-						<p>Although it is not possible to maintain a 2 metre distance from me during your treatment, <strong>please maintain a 2 metre distance from other users of IMSL House.</strong></p>
-						<p><strong>If possible, try not to touch anything inside the building.</strong>  
-						The IMSL House door will be left unlocked so you won't have to use the buzzer or touch the door handle - you can push the door open with your shoulder.</p>
-						<p><strong>Use hand gel to sanitise your hands when entering and leaving the building</strong>.</p>
-						<p><strong>Please use the toilet before leaving home.</strong>  However, if you do have to use the toilet whilst at your appointment, please let me know so I can follow the correct cleaning protocol.</p>
-					</div>
-					
-					<div>
-						<h3 class="section-subheading">Payment</h3>
-						<p><strong>A standard treatment session is now £35.</strong> I accept cash or card payments. The UK contactless payment limit has been increased to £45 so anyone wishing to use contactless payment can do so.</p>
-					</div>
-					
-					<div>
-						<p><strong>If you have any questions or concerns about your appointment, please give me a call or text on 07734253555 or email me at duncan_lightfoot@hotmail.com</strong></p>
-						<p>I am looking forward to seeing you in the clinic soon.</p>
+					<div class="col s12 m6">
+						<div>
+							<h3 class="section-subheading">Inside IMSL House</h3>
+							<p>Although it is not possible to maintain a 2 metre distance from me during your treatment, <strong>please maintain a 2 metre distance from other users of IMSL House.</strong></p>
+							<p><strong>If possible, try not to touch anything inside the building.</strong>  
+							The IMSL House door will be left unlocked so you won't have to use the buzzer or touch the door handle - you can push the door open with your shoulder.</p>
+							<p><strong>Use hand gel to sanitise your hands when entering and leaving the building</strong>.</p>
+							<p><strong>Please use the toilet before leaving home.</strong>  However, if you do have to use the toilet whilst at your appointment, please let me know so I can follow the correct cleaning protocol.</p>
+						</div>
+						
+						<div>
+							<h3 class="section-subheading">Payment</h3>
+							<p><strong>A standard treatment session is now £35.</strong> I accept cash or card payments. The UK contactless payment limit has been increased to £45 so anyone wishing to use contactless payment can do so.</p>
+						</div>
+						
+						<div>
+							<p><strong>If you have any questions or concerns about your appointment, please give me a call or text on 07734253555 or email me at duncan_lightfoot@hotmail.com</strong></p>
+							<p>I am looking forward to seeing you in the clinic soon.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -510,7 +520,7 @@
 					</div>
 				</div>
 				</fieldset>
-				<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+				<button class="btn waves-effect waves-light submit-button" type="submit" name="action">Submit
 					<i class="material-icons right">send</i>
 				</button>
 			</form>
@@ -524,10 +534,10 @@
 			<p>BCA. Member and registerd with the General Chiropractic Council</p>
 			<p><strong>Registration number 02068</strong></p>
 		</div>
-		<div class="col s12 m6">
+		<div class="col s12 m6 center-div">
 			<img src="assets/images/gcc-registered.png" alt="">
 		</div>
-		<div class="col s12 m6">
+		<div class="col s12 m6 center-div">
 			<img src="assets/images/bca-registered.png" alt="">
 		</div>
 		<div class="col s12 m6">
