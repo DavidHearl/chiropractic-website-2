@@ -134,6 +134,10 @@ img {
     margin-top: 1px;
 }
 
+.subsection-margin {
+    margin-top: 32px;
+}
+
 th, td {
     padding: 8px 4px !important;
 }
