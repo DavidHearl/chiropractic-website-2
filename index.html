@@ -9,6 +9,10 @@
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
@@ -63,19 +67,27 @@
 					<div class="text-block">
 						<p>From his clinic in Newcastle, Duncan provides effective chiropractic treatment and management for conditions including:</p>
 						<ul>
-							<li>Lower back pain and Sciatica</li>
-							<li>Neck pain</li>
-							<li>Whiplash</li>
-							<li>Migraine and headaches</li>
-							<li>Shoulder and arm pain</li>
-							<li>Hip and knee complaints</li>
+							<li class="list">Lower back pain and Sciatica</li>
+							<li class="list">Neck pain</li>
+							<li class="list">Whiplash</li>
+							<li class="list">Migraine and headaches</li>
+							<li class="list">Shoulder and arm pain</li>
+							<li class="list">Hip and knee complaints</li>
 						</ul>
 						<p>Specially trained in pregnancy related conditions including Symphysis Pubis Dysfunction (SPD) and pelvic alignment.</p>
 					</div>
 				</div>
 
 				<!-- Booking Form -->
-				<div class="col s12 m6">
+				<div class="col s12 m6" id="test">
+					<div class="text-block">
+						<h3 class="section-subheading">Details</h3>
+						<p>
+							Fill out the form below with your name, phone number and
+							preferred data and Duncan will get back to you with some
+							available times ideally round your preferred date
+						</p>
+					</div>
 					<form >
 						<div class="row">
 							<div class="input-field booking-input">
@@ -140,12 +152,12 @@
 							This will take approximately 60 minutes.
 						</p>
 						<ul>
-							<li>Please wear loose comfortable clothing and bring a list of any medications you may be taking.</li>
-							<li>If you have had any X-ray, MRI or CT examinations recently and have access to the reports, please bring a copy.</li>
-							<li>If you have time please fill in the <a>new patient questionaire</a> If not, allow yourself an extra 5 minutes before your appointment to fill it in.</li>
+							<li class="list">Please wear loose comfortable clothing and bring a list of any medications you may be taking.</li>
+							<li class="list">If you have had any X-ray, MRI or CT examinations recently and have access to the reports, please bring a copy.</li>
+							<li class="list">If you have time please fill in the <a href="#new-patient-form-section">new patient questionaire</a> If not, allow yourself an extra 5 minutes before your appointment to fill it in.</li>
 						</ul>
 						<p>
-							For more informaiton check out my <a href="faqs.html">FAQ page.</a> If you have any other quieres or concerns then feel free to contact me on 07734253555 or email
+							For more informaiton check out the <a  href="#faq-section">FAQ section.</a> If you have any other quieres or concerns then feel free to contact me on 07734253555 or email
 							<strong>duncan_lightfoot@hotmail.com</strong>
 						</p> 
 					</div>
@@ -209,12 +221,12 @@
 							<p>Although chiropractors are best known for treating back and neck pain, which they do very well, patients also consult chiropractors regarding a range of other,
 							related conditions including:</p>
 							<ul>
-								<li>Lower back pain and Sciatica</li>
-								<li>Neck pain</li>
-								<li>Whiplash</li>
-								<li>Migraine and headaches</li>
-								<li>Shoulder and arm pain</li>
-								<li>Hip and knee complaints</li>
+								<li class="list">Lower back pain and Sciatica</li>
+								<li class="list">Neck pain</li>
+								<li class="list">Whiplash</li>
+								<li class="list">Migraine and headaches</li>
+								<li class="list">Shoulder and arm pain</li>
+								<li class="list">Hip and knee complaints</li>
 							</ul>
 						</div>
 
@@ -257,10 +269,10 @@
 					<div>
 						<h3 class="section-subheading">How much will it cost?</h3>
 						<ul>
-							<li>New patient consultation £20</li>
-							<li>New patient consultation with treatment £55</li>
-							<li>Re-examination £45</li>
-							<li>Treatment £35</li>
+							<li class="list">New patient consultation £20</li>
+							<li class="list">New patient consultation with treatment £55</li>
+							<li class="list">Re-examination £45</li>
+							<li class="list">Treatment £35</li>
 						</ul>
 					</div>
 	
@@ -286,8 +298,8 @@
 						<div>
 							<h3 class="section-subheading"><strong>DO NOT ENTER THE BUILDING IF:</strong></h3>
 							<ul>
-								<li>You are feeling unwell</li>
-								<li>Have any COVID-19 symptoms</li>
+								<li class="list">You are feeling unwell</li>
+								<li class="list">Have any COVID-19 symptoms</li>
 							</ul>
 							<p>People at high risk of Covid-19 are still advised to shield.</p>
 							<p>People at moderate risk of Covid-19 are currently advised to stay at home as much as possible.</p>

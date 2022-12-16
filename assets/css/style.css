@@ -5,7 +5,20 @@ Initial Color: #63b0a6
 
 */
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#test {
+    border: 1px solid black;
+}
+
 /* Global Style */
+.input-field .prefix {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
 #page-container {
     margin-top: 80px;
 }
@@ -45,6 +58,10 @@ footer {
 }
 
 /* Main Section Styles */
+.row, .col {
+    margin-bottom: 12px;
+}
+
 .regular-style {
     color: #00897b;
     background-color: white;
@@ -56,6 +73,14 @@ footer {
 }
 
 /* General CSS */
+ul:not(.browser-default)>li {
+    list-style-type: circle !important;
+}
+
+.list {
+    margin-left: 24px;
+}
+
 .row {
     margin-bottom: 0 !important;
 }
@@ -63,11 +88,12 @@ footer {
 .section-header {
     margin: 0;
     padding: 12px 16px;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .section-subheading {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     margin-top: 4px;
     margin-bottom: 12px;
 }
@@ -108,14 +134,15 @@ img {
 }
 
 .booking-input { 
-    width: 90%;
+    width: 88%;
+    margin-left: 24px;
 }
 
 .covid-text {
     margin-bottom: 0;
     padding: 8px 16px;
-    max-width: 80%;
-    margin-left: 10%;
+    max-width: 98%;
+    margin-left: 1%;
     text-align: center;
     border: 1px dotted #00897b;
     border-radius: 4px;
